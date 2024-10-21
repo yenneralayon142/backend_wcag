@@ -1,0 +1,39 @@
+# Ignorar el entorno de Anaconda y carpetas innecesarias
+/env/
+.conda/
+conda-meta/
+bin/
+DLLs/
+Lib/
+Library/
+include/
+libs/
+Scripts/
+share/
+Tools/
+etc/
+node_modules/
+__pycache__/
+.idea/
+.vscode/
+
+# Ignorar archivos binarios y compilados
+*.dll
+*.so
+*.dylib
+*.exe
+*.pyd
+*.pdb
+
+# Ignorar archivos temporales de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar configuraciones específicas del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos generados por npm (si usas Node.js)
+node_modules/
+npm-debug.log
